@@ -39,5 +39,4 @@ func queryVisitorsHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		fmt.Fprintf(w, "</ul></body></html>")
 	}
-
 }
