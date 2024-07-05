@@ -21,8 +21,10 @@ The query endpoint should provide the following information:
 ================================================ Solution ================================================ 
 
 2 endpoints are exposed and server run on port 8080
+once program downladed into local , run below cmd,
 
 server url - http://localhost:8080
+go run main.go handlers.go tracker.go
 
 1) Endpoint which capture the visit of person can be hit with below url and param (I tried using postman)
     http://localhost:8080/capture?url=http://bar.com&visitorName=bob
