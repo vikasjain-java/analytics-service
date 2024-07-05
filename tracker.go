@@ -10,7 +10,6 @@ type VisitorTracker struct {
 }
 
 func NewVisitorTracker() *VisitorTracker {
-
 	return &VisitorTracker{
 		visits: make(map[string]map[string]struct{}),
 	}
